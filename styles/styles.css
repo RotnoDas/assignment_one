@@ -2,6 +2,12 @@ body {
     margin: 0px;
     padding: 0px;
 }
+button:hover {
+    background-color: midnightblue;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
 .header-class {
     background-image: url("../images/Hero-bg.png");
     background-size: cover;
