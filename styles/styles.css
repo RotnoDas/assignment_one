@@ -1,0 +1,381 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.header-class {
+    background-image: url('../assets/Hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.inter-nav {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 34px;
+    font-weight: 900;
+}
+.raleway-general {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.li-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*margin: 0px 150px;*/
+    margin-top: 0px;
+    margin-left: 230px;
+    margin-right: 280px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #4E47FF;
+}
+.header-content {
+    /*width: 905px;
+    height: 237px;*/
+    text-align: center;
+    margin-top: 158px;
+    /*margin-left: 267.5px;
+    margin-right: 267.5px;*/
+    margin-left: 390px;
+    margin-right: 430px;
+}
+.header-description {
+    font-weight: bold;
+    font-size: 65px;
+    color: #252432;
+    margin-bottom: 35px;
+}
+.button-header {
+    margin-bottom: 152px;
+}
+.button-class {
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    /*padding: 12px 36px;*/
+    padding: 15px 40px;
+}
+.section-one {
+    display: flex;
+    margin-top: 116px;
+    /*margin-left: 140px;
+    margin-right: 160px;*/
+    margin-left: 280px;
+    margin-right: 290px;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-content-container {
+    width: 517px;
+    height: 203px;
+}
+.section-one {
+    gap: 220px;
+}
+.main-title {
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+    margin-bottom: 5px;
+}
+.main-description {
+    font-size: 24px;
+    color: rgba(37, 36, 50, 50%);
+}
+.main-image {
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+.main-button {
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.section-two {
+    /*width: 1140px;
+    height: 306px;*/
+    background-color: rgba(78, 71, 255, 10%);
+    margin-top: 116px;
+    /*margin-left: 141px;
+    margin-right: 141px;*/
+    margin-left: 280px;
+    margin-right: 290px;
+    margin-bottom: 137px;
+    border-radius: 24px;
+    padding-left: 141px;
+    padding-top: 30px;
+    padding-right: 141px;
+    padding-bottom: 30px;
+}
+.second-title {
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+    text-align: center;
+    margin-bottom: 1px;
+}
+/*.second-title-container {
+    margin-bottom: 10px;
+}*/
+.second-description-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1px;
+}
+.value {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+    margin-bottom: 1px;
+}
+.comment {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 50%);
+}
+.value-comment-container .value {
+    margin-top: 40px;
+}
+.value-comment-container .comment {
+    margin-top: 1px;
+    margin-left: 15px;
+}
+.section-three {
+    text-align: center;
+    margin-left: 280px;
+    margin-right: 290px;
+    margin-bottom: 137px;
+}
+.section-three-title {
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+}
+.section-three-title-container {
+    margin-bottom: 50px;
+}
+.review-container {
+    display: flex;
+    justify-content: space-between;
+}
+.review {
+    background-color: rgba(255, 255, 255, 50%);
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 70px;
+    padding-bottom: 24px;
+    border-radius: 14px;
+    border: 1px solid #F2EDED;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 50%);
+    /*stroke: #F2EDED;
+    stroke-width: 1px;
+    stroke-opacity: 100%;*/
+    text-align: left;
+}
+.section-three-dtitle {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: -2%;
+    margin-bottom: 8px;
+}
+.section-three-description {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    width: 318.67px;
+    height: 44px;
+}
+.user {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.im {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+.name-date {
+    line-height: 50%;
+}
+.name {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #757575;
+}
+.date {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #B3B3B3;
+}
+.section-four {
+    margin-top: 137px;
+    margin-bottom: 137px;
+    margin-left: 280px;
+    margin-right: 290px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding: 71px 130px;
+    text-align: center;
+    box-shadow: 0 0 5px #F2EDED;
+    margin-bottom: 92.23px;
+}
+.section-four-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 120%;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.section-four-description {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 50%);
+    margin-bottom: 20px;
+}
+.section-four-button {
+    margin-bottom: 20px;
+}
+.section-four-image {
+    border-radius: 48px;
+    width: 840px;
+    height: 364.77px;
+}
+.section-five {
+    background-color: rgba(255, 255, 255, 50%);
+    box-shadow: 0 0 5px #F2EDED;
+    padding-top: 71px;
+    padding-bottom: 71px;
+    margin-left: 280px;
+    margin-right: 290px;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-five-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 97px;
+    line-height: 120%;
+    color: #000000;
+}
+.form {
+    margin-bottom: 20px;
+}
+.email-container, .name-container, .message-container, .button-container {
+    margin-bottom: 10px;
+}
+.label {
+    font-family: "Inter", sans-serif;
+    display: block;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000000;
+    margin-bottom: 8px;
+}
+.input {
+    width: 500px;
+    height: 70px;
+    display: block;
+    padding: 5px 12px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    margin-bottom: 18px;
+
+}
+input::placeholder {
+    width: 194px;
+    height: 30px;
+    padding-left: 12px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 50%);
+}
+.in {
+    width: 460px;
+    height: 135px;
+    padding: 20px 32px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    margin-bottom: 20px;
+}
+textarea::placeholder {
+    width: 208px;
+    height: 30px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 50%);
+}
+.form-button {
+    width: 530px;
+    height: 62px;
+    padding: 19px 101px;
+    border: none;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+}
+.footer-class {
+    background-color: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 10%);
+    width: 100%;
+}
+.container {
+    margin: 104px 685px;
+    text-align: center;
+}
+.footer-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    color: #4E47FF;
+    margin-bottom: 8px;
+}
+.footer-description {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(137, 135, 161, 100%);
+}
+.footer-group-container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.element {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    color: #8987A1;
+}
