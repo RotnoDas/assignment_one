@@ -29,7 +29,6 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /*margin: 0px 150px;*/
     margin-top: 0px;
     margin-left: 230px;
     margin-right: 280px;
@@ -44,12 +43,8 @@ a {
     color: #4E47FF;
 }
 .header-content {
-    /*width: 905px;
-    height: 237px;*/
     text-align: center;
     margin-top: 158px;
-    /*margin-left: 267.5px;
-    margin-right: 267.5px;*/
     margin-left: 390px;
     margin-right: 430px;
 }
@@ -69,14 +64,11 @@ a {
     font-size: 16px;
     border: none;
     border-radius: 10px;
-    /*padding: 12px 36px;*/
     padding: 15px 40px;
 }
 .section-one {
     display: flex;
     margin-top: 116px;
-    /*margin-left: 140px;
-    margin-right: 160px;*/
     margin-left: 280px;
     margin-right: 290px;
     align-items: center;
@@ -111,12 +103,8 @@ a {
     padding-bottom: 12px;
 }
 .section-two {
-    /*width: 1140px;
-    height: 306px;*/
     background-color: rgba(78, 71, 255, 10%);
     margin-top: 116px;
-    /*margin-left: 141px;
-    margin-right: 141px;*/
     margin-left: 280px;
     margin-right: 290px;
     margin-bottom: 137px;
@@ -133,9 +121,6 @@ a {
     text-align: center;
     margin-bottom: 1px;
 }
-/*.second-title-container {
-    margin-bottom: 10px;
-}*/
 .second-description-container {
     display: flex;
     align-items: center;
@@ -188,9 +173,6 @@ a {
     border-radius: 14px;
     border: 1px solid #F2EDED;
     box-shadow: 0 0 5px rgba(255, 255, 255, 50%);
-    /*stroke: #F2EDED;
-    stroke-width: 1px;
-    stroke-opacity: 100%;*/
     text-align: left;
 }
 .section-three-dtitle {
