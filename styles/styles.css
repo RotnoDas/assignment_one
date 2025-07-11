@@ -3,7 +3,7 @@ body {
     padding: 0px;
 }
 .header-class {
-    background-image: url('../assets/Hero-bg.png');
+    background-image: url("../images/Hero-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
